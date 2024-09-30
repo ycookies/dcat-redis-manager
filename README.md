@@ -5,9 +5,14 @@
 
 感谢作者开发的优秀扩展，侵权删！！！
 
-安装
+### 环境要求
+- redis
+- dcat-plus/laravel-admin:^1.2.0
+- predis/predis:*
+
+### 安装
 ```shell
-composer require juenfy/dcat-redis-manager
+composer require ycookies/dcat-redis-manager
 ```
 
 把laravel默认的phpredis改成predis，.env配置添加
@@ -20,7 +25,7 @@ REDIS_CLIENT=predis
 //            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
 ```
 
-截图
+### 截图
 <img src="https://raw.githubusercontent.com/Juenfy/resources/refs/heads/master/1727601883198.jpg">
 
 enjoy!!!

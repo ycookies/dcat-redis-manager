@@ -2,6 +2,6 @@
 
 return [
     '1.0.0' => [
-        'Redis Manager.',
+        'Redis 管理器',
     ],
 ];

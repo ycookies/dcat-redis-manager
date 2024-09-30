@@ -1,10 +1,10 @@
 {
-    "name": "juenfy/dcat-redis-manager",
-    "alias": "",
-    "description": "Description...",
+    "name": "ycookies/dcat-redis-manager",
+    "alias": "redis 管理器",
+    "description": "在线查看管理redis数据",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/juenfy/dcat-redis-manager",
+    "homepage": "https://github.com/ycookies/dcat-redis-manager",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "dcat/laravel-admin": "~2.0",
+        "dcat-plus/laravel-admin":"^1.2.0",
         "predis/predis": "*"
     },
     "autoload": {
