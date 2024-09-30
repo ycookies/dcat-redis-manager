@@ -26,7 +26,7 @@
 
 ### 环境要求
 - redis
-- dcat-plus/laravel-admin:^1.2.0
+- dcat-plus/laravel-admin:*
 - predis/predis:*
 
 ### 安装
