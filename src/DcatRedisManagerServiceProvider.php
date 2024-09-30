@@ -33,7 +33,7 @@ class DcatRedisManagerServiceProvider extends ServiceProvider
 	public function init()
 	{
 		parent::init();
-        Admin::requireAssets('@juenfy.dcat-redis-manager');
+        Admin::requireAssets('@ycookies.dcat-redis-manager');
         admin_require_assets('select2');
         admin_require_assets('sweetalert2');
 	}

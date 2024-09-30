@@ -34,7 +34,7 @@ class DcatRedisManagerController extends Controller
         return $content->header('Redis manager')
             ->description('Connections')
             ->breadcrumb(['text' => 'Redis manager'])
-            ->body(Admin::view('juenfy.dcat-redis-manager::index', $variables));
+            ->body(Admin::view('ycookies.dcat-redis-manager::index', $variables));
     }
 
     /**
@@ -58,9 +58,9 @@ class DcatRedisManagerController extends Controller
         ];
 
         if (empty($variables['data'])) {
-            $view = 'juenfy.dcat-redis-manager::edit.nil';
+            $view = 'ycookies.dcat-redis-manager::edit.nil';
         } else {
-            $view = 'juenfy.dcat-redis-manager::edit.' . $variables['data']['type'];
+            $view = 'ycookies.dcat-redis-manager::edit.' . $variables['data']['type'];
         }
         return $content->header('Redis manager')
             ->description('Connections')
@@ -91,7 +91,7 @@ class DcatRedisManagerController extends Controller
             'type' => $request->get('type'),
         ];
 
-        $view = 'juenfy.dcat-redis-manager::create.' . $vars['type'];
+        $view = 'ycookies.dcat-redis-manager::create.' . $vars['type'];
 
         return $content->header('Redis manager')
             ->description('Connections')
@@ -175,7 +175,7 @@ class DcatRedisManagerController extends Controller
             'connections' => $manager->getConnections(),
         ];
 
-        $view = 'juenfy.dcat-redis-manager::console';
+        $view = 'ycookies.dcat-redis-manager::console';
 
         return $content->header('Redis manager')
             ->description('Connections')

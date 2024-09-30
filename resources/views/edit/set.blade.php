@@ -1,4 +1,4 @@
-@extends('juenfy.dcat-redis-manager::layout')
+@extends('ycookies.dcat-redis-manager::layout')
 
 @section('page')
 
