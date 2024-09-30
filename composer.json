@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "dcat-plus/laravel-admin":"^1.2.0",
+        "dcat-plus/laravel-admin":"*",
         "predis/predis": "*"
     },
     "autoload": {
